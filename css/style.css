@@ -1,0 +1,217 @@
+.body{
+    background-color: rgb(184, 217, 255);
+}
+
+/***********************************INDEX***********************************/
+
+.header-navegador{
+    border: 10px solid black;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5px;
+    width: 60px;
+    height: 50px;
+}
+
+.titulo{
+    margin-left: 300px;
+}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 750px;
+
+}
+
+.carousel-item img{
+    width: 100px;
+    height: 750px;
+}
+
+.caja-princ{
+    width: 1500px;
+    height: 650px;
+    border: 5px solid rgb(165, 31, 31);
+    margin: 15px auto;
+    padding: 5px;
+    position: relative;
+    display: flex;
+}
+
+.caja-princ .imagen-princ{
+    padding: 5px;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    margin-top: 60px;
+    display: flex;
+}
+
+@media (max-width: 655px){
+    .caja-princ .imagen-princ{
+        flex-direction: row;
+    }
+}
+
+.caja-princ .texto h2{
+    width: 500px;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.caja-princ .texto h3{
+    width: 650px;
+    height: 510px;
+    background-color: rgb(248, 248, 248);
+    margin:0 auto;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: absolute;
+    justify-content: center;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.caja-sec{
+    width: 1500px;
+    height: 650px;
+    border: 5px solid rgb(165, 31, 31);
+    margin: 15px auto;
+    padding: 5px;
+    position: relative;
+}
+
+.caja-sec .imagen-texto{
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    margin-top: 60px;
+    margin-right: 10px;
+    right: 0;
+}
+
+.caja-sec .texto {
+    width: 500px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+/***********************************UBICACION***********************************/
+.section-ubi{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    padding: 5px;
+    position: relative;
+    
+}
+
+.art1{
+    margin-left: 30px;
+}
+
+/***********************************PREGUNTAS FRECUENTES***********************************/
+
+.preguntas div img{
+    margin-top: 20px;
+    width: 650px;
+    height: 700px;
+    border: 5px solid white;
+}
+
+.preguntas div .col .card{
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: grid;
+}
+
+
+/***********************************CONTACTO***********************************/
+
+.main-contacto{
+    width: 1250px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+.main-contacto div div .col .imagen-formulario{
+    margin-top: 20%;
+}
+
+.main-contacto div div .col form{
+    margin-top: 5%;
+}
+
+/***********************************PANEL DE ALUMNO***********************************/
+
+.logo-banner{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo-banner img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.tablero{
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 481px;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: monospace;
+    letter-spacing: 4px;
+    color: #000000;
+    text-align:center;
+    word-spacing: 8px;
+    position: relative;
+}
+
+
+
+/***********************************PIE DE PAGINA***********************************/
+.footer{
+    margin-top: 50px;
+    background-color: rgb(165, 31, 31);
+}
+
+.footer img{
+    width: 90px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer a{
+    font-size: 15px;
+    color: white;
+}

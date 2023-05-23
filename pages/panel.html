@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <!--LIBRERIA BOOTSTRAP-->
+        <link rel="stylesheet" href="../bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+        <title>Panel de Alumnos</title>
+    </head>
+    <body class="body">
+
+        <!--NAVEGADOR/CABECERA-->
+        <header class="header-navegador">
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <!--LOGO-->
+                <div>
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="logo" src="../imagenes/Logo.jpg" alt="logo">
+                    </a>
+                </div>
+
+                <!--NAV-->
+                <div class="container-fluid" id="nav-index">
+                    <a class="navbar-brand" href="#">I.S.F.S</a>
+
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    <div class="navbar-collapse collapse show" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ps-3"><a class="nav-link active" aria-current="page" href="../index.html">Inicio<a><li>
+                            <li class="nav-item ps-3"><a class="nav-link" href="./ubicacion.html">Ubicacion</a></li>
+                            <li class="nav-item ps-3"><a class="nav-link" href="./preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                            <li class="nav-item ps-3"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                            <li class="nav-item ps-3"><a class="nav-link" href="#">Panel de Alumnos<a><li>  
+                        </ul>
+
+                        <span class="titulo">
+                            <h1>Instituto San Francisco Solano</h1>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+          
+        </header>
+
+        <div class="logo-banner">
+            <img class="logo" src="../imagenes/Logo.jpg" alt="logo-banner">
+        </div>
+
+        <!--LOOGIN-->
+        <main>
+            <form class="tablero">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Usuario:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Introduzca su e-mail/usuario</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </main>
+
+        <!--ENLACES A REDES-->
+        <footer class="footer">
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <img src="../iconos/square-envelope-solid.svg" alt="e-mail"><a class="nav-link" href="#">E-mail</a>
+                    </li>
+                    <li class="nav-item">
+                      <img src="../iconos/square-facebook.svg" alt="Facebook"><a class="nav-link" href="#">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                      <img src="../iconos/square-instagram.svg" alt="instagram"><a class="nav-link" href="#">Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                      <img src="../iconos/square-whatsapp.svg" alt="whatsapp"><a class="nav-link" href="#">Wahtsapp</a>
+                    </li>                
+                  </ul>
+            </div>
+        </footer>
+
+        <!--LIBRERIA BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
