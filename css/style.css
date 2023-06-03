@@ -57,7 +57,7 @@
     .caja-princ .imagen-princ{
         width: 300px;
         height: 300px;
-        margin-left: 25px;
+        margin-left: 60px;
     }
 }
 
@@ -176,7 +176,6 @@
     .caja-sec .imagen-texto{
         width: 300px;
         height: 300px;
-        margin-left: 25px;
     }
 }
 @media (max-width:400px){
@@ -283,8 +282,22 @@
     margin-top: 20%;
 }
 
+@media (max-width:600px){
+    .main-contacto .imagen-formulario .img-contacto{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
 .main-contacto div div .col form{
     margin-top: 5%;
+}
+
+@media (max-width:600px){
+    .main-contacto {
+        width: 300px;
+        height: 900px;
+    }
 }
 
 /***********************************PANEL DE ALUMNO***********************************/
