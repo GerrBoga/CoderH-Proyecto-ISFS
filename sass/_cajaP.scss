@@ -7,6 +7,17 @@
     margin-left: 45px;
     display: flex;
 }
+.imagen-princ:hover{
+    width: 630px;
+    height: 530px;
+    margin-bottom: 5px;
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.imagen-princ{
+    transition: 2s;
+}
 
 @media(max-width:1025px){
     .caja-princ .imagen-princ{

@@ -1,6 +1,6 @@
 .footer{
     margin-top: 50px;
-    background-color: rgb(165, 31, 31);
+    background-image: linear-gradient(rgb(98, 124, 240) ,rgba(203, 222, 250, 0.795));
 }
 
 @media (max-width:400px){
@@ -17,5 +17,5 @@
 
 .footer a{
     font-size: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }

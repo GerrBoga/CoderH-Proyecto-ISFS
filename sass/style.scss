@@ -5,7 +5,7 @@ $h3-modelo: serif;
 /*FONDO DEL PROYECTO*/
 
 .body{
-    background-color: rgb(184, 217, 255);
+    background-image: radial-gradient(circle, rgb(252, 252, 252), rgb(36, 66, 197));
 }
 
 /*IMPORTS*/
@@ -99,6 +99,7 @@ $h3-modelo: serif;
     text-align: center;
     display: grid;
     font-family: $h3-modelo;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.719), rgb(104, 129, 240));
 }
 
 @media (max-width:600px){
@@ -148,11 +149,14 @@ $h3-modelo: serif;
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    .logo{
-        margin-top: 10px;
+    margin-top: 20px;
+    
+    .logo:hover{
         margin-bottom: 20px;
         width: 100px;
         height: 100px;
+        transform: rotate(-360deg);
+        transition: 2s;
     }
 }
 
