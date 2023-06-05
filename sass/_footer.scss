@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 50px;
+    background-color: rgb(165, 31, 31);
+}
+
+@media (max-width:400px){
+    .footer{
+        margin-top: 100px;
+    }
+}
+
+.footer img{
+    width: 90px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer a{
+    font-size: 15px;
+    color: white;
+}

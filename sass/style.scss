@@ -1,0 +1,174 @@
+/*VARIABLES DE ESTRUCTURA*/
+$h2-tipado:  x-large;
+$h3-modelo: serif;
+
+/*FONDO DEL PROYECTO*/
+
+.body{
+    background-color: rgb(184, 217, 255);
+}
+
+/*IMPORTS*/
+/**CAJA PRINC.INDEX**/
+@import "cajaP";
+
+/**CAJA PRINC.INDEX**/
+@import "cajaS";
+
+/**PIE DE PAGINA**/
+@import "footer";
+
+/***********************************INDEX***********************************/
+
+.header-navegador{
+    border: 10px solid black;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5px;
+    width: 60px;
+    height: 50px;
+}
+
+.titulo{
+    margin-left: 300px;
+    text-align: center;
+}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 750px;
+
+}
+
+.carousel-item img{
+    width: 100px;
+    height: 750px;
+}
+
+/***********************************UBICACION***********************************/
+.section-ubi{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    padding: 5px;
+    font-family: $h3-modelo;
+}
+
+.art1{
+    margin-left: 5px;
+}
+
+@media (max-width:600px){
+    .figure{
+        width: 300px;
+    }
+    iframe{
+        width: 300px;
+    }
+}
+
+/***********************************PREGUNTAS FRECUENTES***********************************/
+
+.preguntas div img{
+    margin-top: 20px;
+    width: 650px;
+    height: 700px;
+    border: 5px solid white;
+}
+
+@media (max-width:600px){
+    .preguntas div img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+.preguntas div .col .card{
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: grid;
+    font-family: $h3-modelo;
+}
+
+@media (max-width:600px){
+    .preguntas div .col .card{
+        width: 300px;
+        height: 280px;
+    }
+}
+
+/***********************************CONTACTO***********************************/
+
+.main-contacto{
+    width: 1250px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: $h3-modelo;
+}
+
+.main-contacto div div .col .imagen-formulario{
+    margin-top: 20%;
+}
+
+@media (max-width:600px){
+    .main-contacto .imagen-formulario .img-contacto{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+.main-contacto div div .col form{
+    margin-top: 5%;
+}
+
+@media (max-width:600px){
+    .main-contacto {
+        width: 300px;
+        height: 900px;
+    }
+}
+
+/***********************************PANEL DE ALUMNO***********************************/
+
+.logo-banner{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    .logo{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.tablero{
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 481px;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: $h3-modelo;
+    letter-spacing: 4px;
+    color: #000000;
+    text-align:center;
+    word-spacing: 8px;
+}
+
