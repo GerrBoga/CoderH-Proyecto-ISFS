@@ -6,6 +6,7 @@
 
 /*IMPORTS*/
 /**CAJA PRINC.INDEX**/
+/*ACA ALMACENO LA 1RA CAJA DEL INDEX CON SUS MEDIAS*/
 .caja-princ .imagen-princ {
   padding: 5px;
   width: 600px;
@@ -39,7 +40,7 @@
   .caja-princ .imagen-princ {
     width: 300px;
     height: 300px;
-    margin-left: 90px;
+    margin-left: 60px;
   }
 }
 @media (max-width: 400px) {
@@ -114,6 +115,7 @@
   }
 }
 /**CAJA PRINC.INDEX**/
+/*ACA ALMACENO LA 2DA CAJA DEL INDEX CON SUS MEDIAS*/
 .caja-sec {
   width: 1300px;
   height: 680px;
@@ -174,6 +176,7 @@
   .caja-sec .imagen-texto {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 400px) {
@@ -189,13 +192,13 @@
 }
 @media (max-width: 600px) {
   .caja-sec .texto {
-    width: 250px;
+    width: 300px;
     height: 600px;
     margin-top: 25px;
-    margin-left: 15px;
   }
 }
 /**PIE DE PAGINA**/
+/*ACA ALMACENO EL FOOTER CON SUS MEDIAS*/
 .footer {
   margin-top: 50px;
   background-image: linear-gradient(rgb(98, 124, 240), rgba(203, 222, 250, 0.795));
@@ -215,7 +218,9 @@
 .footer a {
   font-size: 15px;
   color: rgb(0, 0, 0);
-} /***********************************INDEX***********************************/
+}
+
+/***********************************INDEX***********************************/
 .header-navegador {
   border: 10px solid black;
   flex-wrap: inherit;
@@ -297,6 +302,7 @@
   .preguntas div .col .card {
     width: 300px;
     height: 280px;
+    margin: 100px auto;
   }
 }
 /***********************************CONTACTO***********************************/

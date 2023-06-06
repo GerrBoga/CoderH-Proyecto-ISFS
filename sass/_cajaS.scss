@@ -1,3 +1,5 @@
+/*ACA ALMACENO LA 2DA CAJA DEL INDEX CON SUS MEDIAS*/
+
 .caja-sec{
     width: 1300px;
     height: 680px;
@@ -62,14 +64,15 @@
     .caja-sec .imagen-texto{
         width: 300px;
         height: 300px;
+        margin: 0 auto;
     }
 }
+
 @media (max-width:400px){
     .caja-sec .imagen-texto{
         width: 250px;
     }
 }
-
 
 @media(max-width:1025px){
     .caja-sec .texto{
@@ -81,9 +84,8 @@
 
 @media (max-width:600px){
     .caja-sec .texto{
-        width: 250px;
+        width: 300px;
         height: 600px;
         margin-top: 25px;
-        margin-left: 15px;
     }
 }
